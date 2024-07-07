@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    padding: 0%;
+    margin: 0;
+}
+nav{
+    background-color: #55A74A;
+
+}
+.container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+ 
+}
+.container h1 {
+ color: white;
+
+    }
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+    padding-left: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+li{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+  .icon{
+   
+    background-color: #EB8E78;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 8px;
+  }
+  .sectionone{
+    background-color: #55A74A;
+  }
+  .sectionone div{
+    height: 28rem;
+  }
+  .foodimage{
+    margin-top: 15%;
+    width:80%;
+    margin-left: 40%;
+  }
+ 
+   .col h1{
+    margin-top: 25%;
+    max-width:300px;
+   }
+.icons{
+     margin-top:10%;
+     margin-left: 2%;
+    
+    }        
+    .icons i {
+        margin-right: 15px; 
+       }
+       .fa-brands {
+     background-color: #EB8E78;
+     border: 1px solid;
+     border-radius: 12px;
+     padding: 8px;
+    }
+
+    input{
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+        width: 200px;
+    }
+    button{
+        padding:  10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-left: none;
+        border-radius:  4px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+.heading{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.head{
+    text-align: center;
+    margin-top:5% ;
+    
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+.cards div {
+    position: relative;
+    width: 35px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 12px;
+    padding: 30px;
+}
+.fa-solid{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid whitesmoke;
+    padding: 20%;
+}
