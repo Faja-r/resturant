@@ -1,140 +1,226 @@
-*{
+* {
     box-sizing: border-box;
-   
 }
-body{
-    padding: 0%;
-    margin: 0;
-}
-nav{
-    background-color: #55A74A;
 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added a default font-family */
 }
+
+nav {
+    background-color: #55A74A;
+    padding: 10px 0; /* Added padding for better spacing */
+}
+
 .container {
     margin-top: 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
- 
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
 }
-.container h1 {
- color: white;
 
-    }
+.container h1 {
+    color: white;
+    margin: 0; /* Reset margin for h1 */
+}
+
 ul {
     list-style: none;
     display: flex;
     margin-right: 5%;
     padding-left: 0;
 }
+
 ul li {
-    display: inline-block;
     margin-right: 20px;
 }
-li{
-    margin-top: 5%;
-    margin-left: 5%;
-}
+
 ul li a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
-  .icon{
-   
+.icon {
     background-color: #EB8E78;
     border: 1px solid;
     border-radius: 12px;
     padding: 8px;
-  }
-  .sectionone{
-    background-color: #55A74A;
-  }
-  .sectionone div{
-    height: 28rem;
-  }
-  .foodimage{
-    margin-top: 15%;
-    width:80%;
-    margin-left: 40%;
-  }
- 
-   .col h1{
-    margin-top: 25%;
-    max-width:300px;
-   }
-.icons{
-     margin-top:10%;
-     margin-left: 2%;
-    
-    }        
-    .icons i {
-        margin-right: 15px; 
-       }
-       .fa-brands {
-     background-color: #EB8E78;
-     border: 1px solid;
-     border-radius: 12px;
-     padding: 8px;
-    }
+    margin-left: 5px; /* Added margin for spacing consistency */
+}
 
-    input{
-        padding: 10px;
-        font-size: 16px;
-        border: 2px solid #ccc;
-        border-radius: 4px 0 0 4px;
-        outline: none;
-        width: 200px;
-    }
-    button{
-        padding:  10px;
-        font-size: 16px;
-        border: 2px solid #ccc;
-        border-left: none;
-        border-radius:  4px;
-        background-color: #007bff;
-        color: white;
-        cursor: pointer;
-    }
-.heading{
+.sectionone {
+    background-color: #55A74A;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+
+.foodimage {
+    margin-top: 15px; /* Changed 'rem' to 'px' for consistency */
+    width: 60%;
+    margin-left: 20%; /* Adjusted margin-left for better alignment */
+}
+
+.col h1 {
+    margin-top: 5%; /* Changed to a fixed margin */
+    max-width: 300px;
+}
+
+.icons {
+    /* Changed 'rem' to 'px' for consistency */
+    margin-left: 20px; /* Adjusted margin for better alignment */
+}
+
+.icons i {
+    margin-right: 15px;
+    margin-top: 15%;
+}
+
+.fa-brands {
+    background-color: #EB8E78;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+input {
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+      width: 200px;
+}
+
+.buscar button {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 4px;
+    background-color: #EB8E78;
+    color: white;
+    cursor: pointer;
+}
+
+.heading {
     text-align: center;
     margin-top: 2%;
-    
 }
-.head{
+
+.head {
     text-align: center;
-    margin-top:5% ;
-    
+    margin-top: 5%;
 }
+
+.head button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 4px;
+    background-color: #5EAE53;
+    color: white;
+    cursor: pointer;
+}
+
 .cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    
 }
+
 .cards div {
-    position: relative;
-    width: 35px;
-    height: 70px;
+    width: 100px; /* Changed width for better alignment */
+    height: 100px; /* Changed height for better alignment */
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F7F7F7;
-    border: 1px solid #F7F7F7;
+    border: 1px solid #d1bfbf;
     border-radius: 12px;
-    padding: 30px;
 }
-.fa-solid{
-    position: relative;
-    width: 30px;
-    height: 30px;
+
+.fa-solid {
+    width: 60px; /* Changed width for better alignment */
+    height: 60px; /* Changed height for better alignment */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background: white;
     border: 2px solid whitesmoke;
-    padding: 20%;
+}
+
+.headingtwo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Added text-align for center alignment */
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center; /* Adjusted margin for better alignment */
+}
+
+.carousel p {
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carousel-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #EB8E78;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-button:hover {
+    background-color: #EB8E78;
+}
+
+.card-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+    padding-top: 20px;
+}
+
+.card {
+    width: 15rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 13px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
 }
