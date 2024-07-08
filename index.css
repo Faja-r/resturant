@@ -153,23 +153,37 @@ input {
     border: 2px solid whitesmoke;
 }
 
-.headingtwo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center; /* Added text-align for center alignment */
+.headingtwo button{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 4px;
+    background-color: #5EAE53;
+    color: white;
+    cursor: pointer;
+    margin-left:4%;
+    margin-top: 5%;
+ 
 }
-
+.one{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.one p{
+    margin-top: 2%;
+}
 .carousel {
     display: flex;
-    align-items: center;
+    align-items: right;
     margin-top: 20px;
-    justify-content: center; /* Adjusted margin for better alignment */
+    justify-content: right; 
 }
 
 .carousel p {
-    margin-right: 20px;
+    margin-right: 15px;
     font-weight: bold;
+    margin-top:1%;
     cursor: pointer;
 }
 
@@ -181,19 +195,14 @@ input {
     background-color: #EB8E78;
     color: white;
     font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
-.carousel-button:hover {
-    background-color: #EB8E78;
-}
 
 .card-containers {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+    flex-wrap: wrap;
     padding-top: 20px;
 }
 
