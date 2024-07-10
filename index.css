@@ -84,7 +84,7 @@ ul li a {
     padding: 8px;
 }
 
-input {
+ .buscar input {
     padding: 5px;
     font-size: 12px;
     border: 2px solid #ccc;
@@ -173,6 +173,9 @@ input {
 .one p{
     margin-top: 2%;
 }
+  .ver{
+        margin-left:90%;
+    }
 .carousel {
     display: flex;
     align-items: right;
@@ -232,4 +235,119 @@ input {
 .card-text {
     font-size: 14px;
     color: #666;
+}
+
+.man{
+width: 120%;
+background-color: #FFE6E0;
+
+
+}
+  
+
+.test {
+    background-image: url('./image/Rectangle 22.png');
+    background-repeat: no-repeat;
+    background-position: left; 
+    margin-top: 2%;
+    
+    }
+
+
+.containerz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+}
+
+.test, .side {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 90px;
+}
+
+ .side p {
+    margin: 0;
+}
+
+
+    
+.group button {
+ padding: 7px;
+font-size: 16px;
+border: 2px solid #ccc;
+border-left: none;
+border-radius: 4px;
+background-color: #5EAE53;
+color: white;
+cursor: pointer;
+margin-top: 5%;
+}
+.buscar   input {
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+      width: 200px;
+}
+
+.buscar button {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 4px;
+    background-color: #EB8E78;
+    color: white;
+    cursor: pointer;
+}
+.rounded-start {
+    height: 100%;
+    object-fit: cover;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.card {
+   margin-left: 7%;
+   margin-right: 5%;
+}
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}  
+.iphone {
+    width: 30%;
+}
+
+.containerzz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #5EAE53;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    padding: 20px;
+}
+
+.sides, .tests {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.groups h1 {
+    margin: 20%;
 }
